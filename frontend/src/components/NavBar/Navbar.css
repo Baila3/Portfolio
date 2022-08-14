@@ -1,0 +1,34 @@
+.nav-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.3s;
+  position: fixed;
+  background-color: grey;
+  width: 100vw;
+  z-index: 3;
+  /* border-bottom: 1px solid #ffc300; */
+  color: black;
+  font-family: 'Georgia';
+  border-bottom: 3px solid black;
+}
+
+ 
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10%;
+  margin: 1em;
+  font-weight: lighter; 
+}
+.NavMage{
+  display: flex;
+  margin-left: 3.5em;
+  margin-top: 0.7em;
+}
+
+.Links {
+  text-decoration: none;
+}
