@@ -1,0 +1,12 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #cbc7b7;
+  font-family: 'Georgia';
+  font-weight: 600;
+}
+.homeMage {
+  margin-top: 100px;
+}

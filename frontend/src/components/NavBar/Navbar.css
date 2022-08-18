@@ -8,8 +8,7 @@
   background-color: grey;
   width: 100vw;
   z-index: 3;
-  /* border-bottom: 1px solid #ffc300; */
-  color: black;
+  color: #cbc7b7;
   font-family: 'Georgia';
   border-bottom: 3px solid black;
 }
@@ -19,10 +18,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* width: 10%; */
   margin: 2em;
   font-weight: lighter; 
-  /* color: beige; */
 }
 .NavMage{
   display: flex;
