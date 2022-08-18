@@ -2,16 +2,15 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './components/Home/Home';
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar/>
         <div>
           <Routes>
-            <Route path='/'>
-
-            </Route>
+            <Route path='/' element={<><Navbar/><Home/></>} />
+            {/* <Route path='/' element={<Home />} /> */}
           </Routes>
         </div>
       </div>
