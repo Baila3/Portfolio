@@ -7,12 +7,15 @@
   position: fixed;
   background-color: grey;
   width: 100vw;
-  z-index: 3;
+  z-index: 4;
   color: #cbc7b7;
-  font-family: 'Georgia';
+  font-family: 'Arial';
+  font-size: small;
   border-bottom: 3px solid black;
 }
-
+.EAC:hover {
+  color: #ffc300;
+}
  
 .options {
   display: flex;
@@ -20,6 +23,7 @@
   justify-content: space-between;
   margin: 2em;
   font-weight: lighter; 
+  width: 35%;
 }
 .NavMage{
   display: flex;
