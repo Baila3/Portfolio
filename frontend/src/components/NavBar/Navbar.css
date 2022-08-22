@@ -35,3 +35,6 @@
   text-decoration: none;
 }
 
+.Scheduler:hover {
+  color: #10ac84;
+}
