@@ -32,6 +32,17 @@ export default function Home () {
             />
           </video>
         </div>
+        <section className="WikiMaps">
+          <button className="draw3">WikiMaps</button>
+        </section>    
+        <div>
+          <video id="blur" autoPlay loop muted  width="100%" height= "auto">
+            <source
+              src={require("../../docs/Scheduler.mp4")}
+              type="video/mp4"
+            />
+          </video>
+        </div>
     </main>
   )
 }
