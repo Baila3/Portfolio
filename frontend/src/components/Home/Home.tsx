@@ -38,7 +38,7 @@ export default function Home () {
         <div>
           <video id="blur" autoPlay loop muted  width="100%" height= "auto">
             <source
-              src={require("../../docs/Screen Shot 2022-05-12 at 2.53.15 PM.png")}
+              src={require("../../docs/WikiMaps.mp4")}
               type="video/mp4"
             />
           </video>
