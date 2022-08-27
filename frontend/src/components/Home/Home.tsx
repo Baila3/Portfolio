@@ -10,33 +10,33 @@ export default function Home () {
 
   return (
     <main>
-        <section className="EACbut">
+        <section>
           <button className="draw">EAC</button>
         </section> 
         <div>
-          <video id="blur" autoPlay loop muted  width="100%" height= "auto">
+          <video id="blur1" autoPlay loop muted  width="99%" height= "auto">
             <source
               src={require("../../docs/EAC.mp4")}
               type="video/mp4"
             />
           </video>
         </div>
-        <section className="Scheduler">
+        <section>
           <button className="draw2">Scheduler</button>
         </section>        
         <div>
-          <video id="blur" autoPlay loop muted  width="100%" height= "auto">
+          <video id="blur2" autoPlay loop muted  width="99%" height= "auto">
             <source
               src={require("../../docs/Scheduler.mp4")}
               type="video/mp4"
             />
           </video>
         </div>
-        <section className="WikiMaps">
+        <section>
           <button className="draw3">WikiMaps</button>
         </section>    
         <div>
-          <video id="blur" autoPlay loop muted  width="100%" height= "auto">
+          <video id="blur3" autoPlay loop muted  width="99%" height= "auto">
             <source
               src={require("../../docs/WikiMaps.mp4")}
               type="video/mp4"

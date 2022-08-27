@@ -7,10 +7,18 @@
   font-family: 'Georgia';
   font-size: 1.5em;
 }
-#blur {
+#blur1 {
   filter: blur(4px);
+  border: #ffc300 5px solid;
 }
+#blur2 {
+  filter: blur(4px);
+  border: #10ac84 5px solid
+}#blur3 {
+  filter: blur(4px);
+  border: #EF6461 5px solid
 
+}
 button {
   z-index: 3;
   background: none;
