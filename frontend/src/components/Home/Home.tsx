@@ -11,6 +11,7 @@ export default function Home () {
   return (
     <main>
         <section>
+          <p className="drew">If you enjoy giving your takes on movies this is the perfect app for you. It really proves to you that Everyone's a Critic </p>
           <button className="draw">EAC</button>
         </section> 
         <div>
