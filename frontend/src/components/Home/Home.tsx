@@ -11,8 +11,8 @@ export default function Home () {
   return (
     <main>
         <section>
-          <p className="drew">If you enjoy giving your takes on movies this is the perfect app for you. It really proves to you that Everyone's a Critic </p>
-          <button className="draw">EAC</button>
+          <p className="drew">Everyone's a Critic (EAC) is a movie library that enables users to discover, rate, review and add to movies to personalized movie playlists. </p>
+          <button className="draw">Learn More</button>
         </section> 
         <div>
           <video id="blur1" autoPlay loop muted  width="99%" height= "auto">
@@ -23,7 +23,8 @@ export default function Home () {
           </video>
         </div>
         <section>
-          <button className="draw2">Scheduler</button>
+          <p className="drew2">Scheduler is an app that allows its users to book an interview on any given day and choose an interviewer for that day! </p>
+          <button className="draw2">Learn More</button>
         </section>        
         <div>
           <video id="blur2" autoPlay loop muted  width="99%" height= "auto">
@@ -34,7 +35,8 @@ export default function Home () {
           </video>
         </div>
         <section>
-          <button className="draw3">WikiMaps</button>
+          <p className="drew3">WikiMaps is a small app which allows the user to view, create, edit or delete a map. Wikimaps relies on the google map api to render maps for the user and allows them to save custom versions of these maps with unique markers.</p>
+          <button className="draw3">Learn More</button>
         </section>    
         <div>
           <video id="blur3" autoPlay loop muted  width="99%" height= "auto">

@@ -1,22 +1,24 @@
 .draw {
   position: absolute;
-  top: 50%;
-  left: 60%;
+  top: 73%;
+  left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Georgia';
   font-size: 1.5em;
 }
+
 .drew {
-  width: 20%;
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  color: #cbc7b7;
-  font-family: 'Georgia';
+  color: #ffc300;
+  font-family: 'Arial';
   font-size: 1.5em;
   z-index: 3;
+  border: solid 3px #ffc300;
+  padding: 2em;
 }
 #blur1 {
   filter: blur(4px);
@@ -28,7 +30,7 @@
 }#blur3 {
   filter: blur(4px);
   border: #EF6461 5px solid
-
+  
 }
 button {
   z-index: 3;
@@ -88,11 +90,23 @@ button::before, button::after {
   -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
   transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
 }
-
-.draw2 {
+.drew2 {
   position: absolute;
   top: 180%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  color: #10ac84 ;
+  font-family: 'Arial';
+  font-size: 1.5em;
+  z-index: 3;
+  border: solid 3px #10ac84 ;
+  padding: 2em;
+}
+
+.draw2 {
+  position: absolute;
+  top: 203%;
+  left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Georgia';
@@ -134,10 +148,22 @@ button::before, button::after {
   -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
   transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
 }
-.draw3 {
+.drew3 {
   position: absolute;
   top: 310%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EF6461 ;
+  font-family: 'Arial';
+  font-size: 1.5em;
+  z-index: 3;
+  border: solid 3px #EF6461;
+  padding: 2em;
+}
+.draw3 {
+  position: absolute;
+  top: 335%;
+  left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Georgia';
