@@ -10,7 +10,10 @@ export default function Home () {
 
   return (
     <main>
-        <img src={require("../../docs/Smart-Buildings-1.jpeg")} alt="" width="100%" height="auto"/>
+        <section>
+          <p className="Porto">This is my personal collection of projects I have worked on during my tech journey</p>
+          <img src={require("../../docs/Smart-Buildings-1.jpeg")} alt="" width="100%" height="auto"/>
+        </section> 
         <section className="EAC">
           <p className="drew">Everyone's a Critic (EAC) is a movie library that enables users to discover, rate, review and add to movies to personalized movie playlists. </p>
           <button className="draw">Learn More</button>
