@@ -1,6 +1,6 @@
 .draw {
   position: absolute;
-  top: 58em;
+  top: 53em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
@@ -10,22 +10,20 @@
 .Porto {
   position: absolute;
   top: 15em;
-  left: 50%;
+  width: 20%;
+  left: 85%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Arial';
   font-size: 1.5em;
   z-index: 3;
   -webkit-text-stroke: 1px black;
-
+  /* background-color: gray; */
 }
-/* .EAC {
-  top:50%;
-  z-index: 3;
-} */
+
 .drew {
   position: absolute;
-  top: 52em;
+  top: 44em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffc300;
@@ -107,7 +105,7 @@ button::before, button::after {
 }
 .drew2 {
   position: absolute;
-  top: 90em;
+  top: 82em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #10ac84 ;
@@ -121,7 +119,7 @@ button::before, button::after {
 
 .draw2 {
   position: absolute;
-  top: 96em;
+  top: 90em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
@@ -167,7 +165,7 @@ button::before, button::after {
 }
 .drew3 {
   position: absolute;
-  top: 130em;
+  top: 120em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #EF6461 ;
@@ -179,7 +177,7 @@ button::before, button::after {
 }
 .draw3 {
   position: absolute;
-  top: 138em;
+  top: 129em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
