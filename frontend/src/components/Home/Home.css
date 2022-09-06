@@ -10,9 +10,8 @@
 .Porto {
   position: absolute;
   top: 15em;
-  width: 12em;
   height: auto;
-  left: 85%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Arial';
