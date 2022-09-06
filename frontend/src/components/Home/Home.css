@@ -1,6 +1,6 @@
 .draw {
   position: absolute;
-  top: 53em;
+  top: 51em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
@@ -121,7 +121,7 @@ button::before, button::after {
 
 .draw2 {
   position: absolute;
-  top: 90em;
+  top: 89em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
@@ -167,7 +167,7 @@ button::before, button::after {
 }
 .drew3 {
   position: absolute;
-  top: 120em;
+  top: 115em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #EF6461 ;
@@ -179,7 +179,7 @@ button::before, button::after {
 }
 .draw3 {
   position: absolute;
-  top: 129em;
+  top: 122em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;

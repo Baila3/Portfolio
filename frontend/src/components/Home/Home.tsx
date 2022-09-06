@@ -39,7 +39,7 @@ export default function Home () {
           </video>
         </div>
         <section>
-          <p className="drew3">WikiMaps is a small app which allows the user to view, create, edit or delete a map. Wikimaps relies on the google map api to render maps for the user and allows them to save custom versions of these maps with unique markers.</p>
+          <p className="drew3">WikiMaps is a small app which allows the user to view, create, edit or delete a map. </p>
           <button className="draw3">Learn More</button>
         </section>    
         <div>
