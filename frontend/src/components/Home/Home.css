@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 .draw {
   position: absolute;
   top: 51em;
@@ -21,6 +25,7 @@
 
   /* background-color: gray; */
 }
+
 
 .drew {
   position: absolute;
