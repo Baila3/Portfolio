@@ -16,6 +16,9 @@
 .EAC:hover {
   color: #ffc300;
 }
+.About:hover {
+  color: black;
+}
  
 .options {
   display: flex;

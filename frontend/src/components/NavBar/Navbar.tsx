@@ -15,7 +15,7 @@ export default function Navbar () {
           <h2 className="EAC">EAC</h2>
           <h2 className="WikiMaps">WikiMaps</h2>
           <h2 className="Scheduler">Scheduler</h2>
-          <h2>About</h2>
+          <h2 className="About">About</h2>
         </div>
       </div>
     </main>
