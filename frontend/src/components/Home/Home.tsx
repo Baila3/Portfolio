@@ -10,16 +10,18 @@ export default function Home () {
 
   return (
     <main>
+       <div>
         <section>
           <p className="Porto">This is my personal collection of projects I have worked on during my tech journey</p>
-          <img src={require("../../docs/Smart-Buildings-1.jpeg")} alt="" width="100%" height="auto" />
+          <img className="blackSand" src={require("../../docs/dark-wallpaper.png")} alt="" width="100%" height="auto" />
         </section> 
+       </div>
         <section className="EAC">
           <p className="drew">Everyone's a Critic (EAC) is a movie library that enables users to discover, rate, review and add to movies to personalized movie playlists. </p>
           <button className="draw">Learn More</button>
         </section> 
-        <div>
-          <video id="blur1" autoPlay loop muted  width="99%" height= "auto">
+        <div className="EACbor">
+          <video id="blur1" autoPlay loop muted  width="100%" height= "auto">
             <source
               src={require("../../docs/EAC.mp4")}
               type="video/mp4"

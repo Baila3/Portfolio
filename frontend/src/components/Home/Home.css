@@ -1,3 +1,6 @@
+/* *{
+  border: red 1px solid;
+} */
 ::-webkit-scrollbar {
   display: none;
 }
@@ -25,8 +28,10 @@
 
   /* background-color: gray; */
 }
-
-
+.EACbor {
+  border: 3px solid #ffc300;
+  border-radius: 0.1em;
+}
 .drew {
   position: absolute;
   top: 44em;
@@ -36,12 +41,13 @@
   font-family: 'Arial';
   font-size: 1.5em;
   z-index: 3;
-  border: solid 3px #ffc300;
+  border: solid 5px #ffc300;
   padding: 2em;
 }
 #blur1 {
+  margin-top: -1em;
   filter: blur(4px);
-  border: #ffc300 6px solid;
+  /* border: #ffc300 6px solid; */
 }
 #blur2 {
   filter: blur(4px);
