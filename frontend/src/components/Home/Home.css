@@ -7,7 +7,7 @@
 
 .draw {
   position: absolute;
-  top: 51em;
+  top: 59em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
@@ -27,33 +27,30 @@
 
   /* background-color: gray; */
 }
-.EACbor {
-  border: 3px solid #ffc300;
-  border-radius: 0.1em;
-}
+
 .drew {
   position: absolute;
-  top: 44em;
+  top: 52em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffc300;
   font-family: 'Arial';
   font-size: 1.5em;
   z-index: 3;
-  border: solid 5px #ffc300;
+  border: solid 3px #ffc300;
   padding: 2em;
 }
 #blur1 {
-  margin-top: -1em;
+  margin-top: -0.4em;
   filter: blur(4px);
-  /* border: #ffc300 6px solid; */
+  border: #ffc300 7px solid;
 }
 #blur2 {
   filter: blur(4px);
-  border: #10ac84 5px solid
+  border: #10ac84 7px solid
 }#blur3 {
   filter: blur(4px);
-  border: #EF6461 5px solid
+  border: #EF6461 7px solid
   
 }
 button {
@@ -116,7 +113,7 @@ button::before, button::after {
 }
 .drew2 {
   position: absolute;
-  top: 82em;
+  top: 93em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #10ac84 ;
@@ -130,7 +127,7 @@ button::before, button::after {
 
 .draw2 {
   position: absolute;
-  top: 89em;
+  top: 100em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
@@ -176,7 +173,7 @@ button::before, button::after {
 }
 .drew3 {
   position: absolute;
-  top: 115em;
+  top: 129em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #EF6461 ;
@@ -188,7 +185,7 @@ button::before, button::after {
 }
 .draw3 {
   position: absolute;
-  top: 122em;
+  top: 136em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;

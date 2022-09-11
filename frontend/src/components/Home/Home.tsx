@@ -21,7 +21,7 @@ export default function Home () {
           <button className="draw">Learn More</button>
         </section> 
         <div className="EACbor">
-          <video id="blur1" autoPlay loop muted  width="100%" height= "auto">
+          <video id="blur1" autoPlay loop muted  width="99%" height= "auto">
             <source
               src={require("../../docs/EAC.mp4")}
               type="video/mp4"
