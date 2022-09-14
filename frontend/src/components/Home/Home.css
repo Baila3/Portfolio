@@ -13,6 +13,8 @@
   color: #cbc7b7;
   font-family: 'Georgia';
   font-size: 1.5em;
+  -webkit-text-stroke: 0.2px black;
+
 }
 .Porto {
   position: absolute;
@@ -113,7 +115,7 @@ button::before, button::after {
 }
 .drew2 {
   position: absolute;
-  top: 93em;
+  top: 90em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #10ac84 ;
@@ -127,12 +129,14 @@ button::before, button::after {
 
 .draw2 {
   position: absolute;
-  top: 100em;
+  top: 97em;
   left: 48%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Georgia';
   font-size: 1.5em;
+  -webkit-text-stroke: 0.2px black;
+
   
 }
 .draw2 {
@@ -191,6 +195,8 @@ button::before, button::after {
   color: #cbc7b7;
   font-family: 'Georgia';
   font-size: 1.5em;
+  -webkit-text-stroke: 0.2px black;
+
 }
 .draw3 {
   -webkit-transition: color 0.25s;
