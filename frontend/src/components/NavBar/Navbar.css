@@ -44,3 +44,19 @@
 .WikiMaps:hover {
   color: #EF6461;
 }
+
+.eacPos{
+  color:#ffc300
+}
+.navPos1{
+  display: flex;
+  margin-left: 3.5em;
+  margin-top: 0.7em;
+  border: 1px #ffc300 solid
+}
+.navPos2{
+  display: flex;
+  margin-left: 3.5em;
+  margin-top: 0.7em;
+  border: 1px #10ac84 solid
+}
