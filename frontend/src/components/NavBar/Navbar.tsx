@@ -31,10 +31,10 @@ export default function Navbar () {
       <div className="nav-div">
         <img className={nav ?  "navPos1" : "NavMage"} src={logo ? require('../../docs/Logo2.png') : require('../../docs/Logo.png')} alt="" width = "85" height = "auto"/>
         <div className="options">
-          <h2 className={nav ? "eacPos" : "EAC" }>EAC</h2>
-          <h2 className={nav ?  "eacPos" : "WikiMaps" }>WikiMaps</h2>
-          <h2 className={nav ?  "eacPos" : "Scheduler" }>Scheduler</h2>
-          <h2 className={nav ?  "eacPos" : "About" }>About</h2>
+          <h2><a className={nav ? "eacPos" : "EAC" } href="/EAC">EAC</a></h2>
+          <h2><a className={nav ?  "eacPos" : "WikiMaps" } href="/Wikimaps">Wikimaps</a></h2>
+          <h2><a className={nav ?  "eacPos" : "Scheduler" } href="/Scheduler">Scheduler</a></h2>
+          <h2><a className={nav ?  "eacPos" : "About" } href="/Abouts">About</a></h2>
         </div>
       </div>
     </main>

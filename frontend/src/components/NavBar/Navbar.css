@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 .nav-div{
   display: flex;
   flex-direction: row;
@@ -13,11 +16,23 @@
   font-size: small;
   /* border-bottom: 3px solid black; */
 }
+.EAC {
+  color:#cbc7b7;
+}
+.WikiMaps {
+  color:#cbc7b7;
+}
+.Scheduler{
+  color: #cbc7b7;
+}
+.About{
+  color:#cbc7b7;
+}
 .EAC:hover {
   color: #ffc300;
 }
 .About:hover {
-  color: black;
+  color: white;
 }
  
 .options {
