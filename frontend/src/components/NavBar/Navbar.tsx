@@ -16,10 +16,8 @@ export default function Navbar () {
     }
   }
   const changeNav = () => {
-    if (window.scrollY > 900 && window.scrollY < 1800  ) {
+    if (window.scrollY > 900) {
       setNav(1)
-    } else if (window.scrollY > 1800) {
-      setNav(2)
     } else {
       setNav(0)
     }
