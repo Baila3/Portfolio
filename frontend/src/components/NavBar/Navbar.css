@@ -8,13 +8,11 @@ a{
   justify-content: space-between;
   transition: top 0.3s;
   position: fixed;
-  /* background-color: grey; */
   width: 100vw;
   z-index: 4;
   color: #cbc7b7;
   font-family: 'Arial';
   font-size: small;
-  /* border-bottom: 3px solid black; */
 }
 .EAC {
   color:#cbc7b7;
