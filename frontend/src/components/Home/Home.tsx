@@ -13,7 +13,7 @@ export default function Home () {
        <div>
         <section>
           <p className="Porto">This is my personal collection of projects I have worked on during my tech journey</p>
-          <img className="blackSand" src={require("../../docs/dark-wallpaper.png")} alt="" width="100%" height="auto" />
+          <img className="blackSand" src={require("../../docs/flip.png")} alt="" width="100%" height="auto" />
         </section> 
        </div>
         <section className="EAC">
@@ -21,7 +21,7 @@ export default function Home () {
           <button className="draw">Learn More</button>
         </section> 
         <div className="EACbor">
-          <video id="blur1" autoPlay loop muted  width="99%" height= "auto">
+          <video id="blur1" autoPlay loop muted  width="30%" height= "auto">
             <source
               src={require("../../docs/EAC.mp4")}
               type="video/mp4"

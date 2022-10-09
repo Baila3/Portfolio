@@ -1,10 +1,10 @@
-/* *{
-  border: red 1px solid;
-} */
+
 ::-webkit-scrollbar {
   display: none;
 }
-
+.blackSand{
+  border-bottom: #ffc300;
+}
 .draw {
   position: absolute;
   top: 59em;
@@ -43,9 +43,10 @@
   padding: 2em;
 }
 #blur1 {
-  margin-top: -0.4em;
+  /* margin-top: -0.4em; */
   filter: blur(4px);
   border: #ffc300 7px solid;
+  /* background-color: black; */
 }
 #blur2 {
   filter: blur(4px);
