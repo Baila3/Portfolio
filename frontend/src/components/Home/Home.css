@@ -16,6 +16,10 @@
   -webkit-text-stroke: 0.2px black;
 
 }
+.space1{
+  margin-top: -0.4em;
+
+}
 .Porto {
   position: absolute;
   top: 15em;
@@ -43,7 +47,7 @@
   padding: 2em;
 }
 #blur1 {
-  /* margin-top: -0.4em; */
+  margin-top: -0.4em;
   filter: blur(4px);
   border: #ffc300 7px solid;
   /* background-color: black; */

@@ -14,6 +14,11 @@ export default function Navbar () {
     } else {
       setLogo(0)
     }
+    if (window.scrollY > 1800) {
+      setLogo(2)
+    } else {
+      setLogo(1)
+    }
   }
   const changeNav = () => {
     if (window.scrollY > 900) {
