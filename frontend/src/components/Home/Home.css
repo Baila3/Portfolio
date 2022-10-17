@@ -47,7 +47,7 @@
   padding: 2em;
 }
 #blur1 {
-  margin-top: -0.4em;
+  /* margin-top: -0.4em; */
   filter: blur(4px);
   border: #ffc300 7px solid;
   /* background-color: black; */
