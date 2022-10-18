@@ -19,7 +19,7 @@ export default function Home () {
        <div>
         <section>
           {/* <p className="Porto">This is my personal collection of projects I have worked on during my tech journey</p> */}
-          <img className="space1" src={require("../../docs/original1.png")} alt="" width="100%" height="auto" />
+          {/* <img className="space1" src={require("../../docs/original1.png")} alt="" width="100%" height="auto" /> */}
         </section> 
        </div>
         <section className="EAC">
