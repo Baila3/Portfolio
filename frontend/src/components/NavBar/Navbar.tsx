@@ -7,32 +7,33 @@ interface Props {
 }
 export default function Navbar () {
   const [logo, setLogo] = useState(0)
-  const [nav, setNav] = useState(0)
+  const [nav, setNav] = useState("NavMage")
   const changeLogo = () => {
     if (window.scrollY > 900) {
       setLogo(1)
     } else {
       setLogo(0)
     }
-    if (window.scrollY > 1800) {
-      setLogo(2)
-    } else {
-      setLogo(1)
-    }
   }
   const changeNav = () => {
-    if (window.scrollY > 900) {
-      setNav(1)
+    if (window.scrollY > 900 ) {
+       setNav("navPos1")
     } else {
-      setNav(0)
+      setNav("NavMage")
     }
+    if (window.scrollY > 1800) {
+       setNav("navPos2")
+    } 
+     
   }
+ 
   window.addEventListener('scroll', changeLogo)
   window.addEventListener('scroll', changeNav)
+
   return (
     <main>
       <div className="nav-div">
-        <img className={nav ?  "navPos1" : "NavMage"} src={logo ? require('../../docs/Logo.png') : require('../../docs/Logo.png')} alt="" width = "85" height = "auto"/>
+        <img className={nav} src={logo ? require('../../docs/Logo.png') : require('../../docs/Logo.png')} alt="" width = "85" height = "auto"/>
         <div className="options">
           <h2><a className={nav ? "eacPos" : "EAC" } href="/EAC">EAC</a></h2>
           <h2><a className={nav ?  "eacPos" : "WikiMaps" } href="/Wikimaps">Wikimaps</a></h2>
