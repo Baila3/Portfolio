@@ -8,6 +8,7 @@ interface Props {
 export default function Navbar () {
   const [logo, setLogo] = useState(0)
   const [nav, setNav] = useState("NavMage")
+  const [links, setLinks] = useState("EAC")
   const changeLogo = () => {
     if (window.scrollY > 900) {
       setLogo(1)
@@ -26,19 +27,32 @@ export default function Navbar () {
     } 
      
   }
+  const changeLinks = () => {
+    if (window.scrollY > 900 ) {
+       setLinks("eacPos")
+    } else {
+      setLinks("EAC")
+    }
+    if (window.scrollY > 1800) {
+       setLinks("schedulerPos")
+    } 
+     
+  }
  
   window.addEventListener('scroll', changeLogo)
   window.addEventListener('scroll', changeNav)
+  window.addEventListener('scroll', changeLinks)
+
 
   return (
     <main>
       <div className="nav-div">
         <img className={nav} src={logo ? require('../../docs/Logo.png') : require('../../docs/Logo.png')} alt="" width = "85" height = "auto"/>
         <div className="options">
-          <h2><a className={nav ? "eacPos" : "EAC" } href="/EAC">EAC</a></h2>
-          <h2><a className={nav ?  "eacPos" : "WikiMaps" } href="/Wikimaps">Wikimaps</a></h2>
-          <h2><a className={nav ?  "eacPos" : "Scheduler" } href="/Scheduler">Scheduler</a></h2>
-          <h2><a className={nav ?  "eacPos" : "About" } href="/Abouts">About</a></h2>
+          <h2><a className={links} href="/EAC">EAC</a></h2>
+          <h2><a className={links} href="/Wikimaps">Wikimaps</a></h2>
+          <h2><a className={links} href="/Scheduler">Scheduler</a></h2>
+          <h2><a className={links} href="/Abouts">About</a></h2>
         </div>
       </div>
     </main>
