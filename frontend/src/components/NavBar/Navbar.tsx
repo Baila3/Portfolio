@@ -6,14 +6,17 @@ interface Props {
   Text: string
 }
 export default function Navbar () {
-  const [logo, setLogo] = useState(0)
+  const [logo, setLogo] = useState("Logo.png")
   const [nav, setNav] = useState("NavMage")
   const [links, setLinks] = useState("EAC")
   const changeLogo = () => {
     if (window.scrollY > 900) {
-      setLogo(1)
+      setLogo("Logo2.png")
     } else {
-      setLogo(0)
+      setLogo("Logo.png")
+    }
+    if (window.scrollY > 1800) {
+      setLogo("Logo3.png")
     }
   }
   const changeNav = () => {
@@ -47,7 +50,7 @@ export default function Navbar () {
   return (
     <main>
       <div className="nav-div">
-        <img className={nav} src={logo ? require('../../docs/Logo.png') : require('../../docs/Logo.png')} alt="" width = "85" height = "auto"/>
+        <img className={nav} src={require(`../../docs/${logo}`)} alt="" width = "85" height = "auto"/>
         <div className="options">
           <h2><a className={links} href="/EAC">EAC</a></h2>
           <h2><a className={links} href="/Wikimaps">Wikimaps</a></h2>
