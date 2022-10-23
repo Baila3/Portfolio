@@ -34,7 +34,7 @@ export default function Navbar () {
     if (window.scrollY > 900 ) {
        setLinks("eacPos")
     } else {
-      setLinks("EAC")
+      setLinks("About")
     }
     if (window.scrollY > 1800) {
        setLinks("schedulerPos")
