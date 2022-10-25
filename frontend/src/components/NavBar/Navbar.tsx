@@ -28,6 +28,9 @@ export default function Navbar () {
     if (window.scrollY > 1800) {
        setNav("navPos2")
     } 
+    if (window.scrollY > 2700) {
+      setNav("navPos3")
+   } 
      
   }
   const changeLinks = () => {
@@ -39,7 +42,9 @@ export default function Navbar () {
     if (window.scrollY > 1800) {
        setLinks("schedulerPos")
     } 
-     
+    if (window.scrollY > 2700) {
+      setLinks("wikimapsPos")
+   } 
   }
  
   window.addEventListener('scroll', changeLogo)

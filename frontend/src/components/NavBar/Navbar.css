@@ -59,11 +59,18 @@ a{
 }
 
 .eacPos{
-  color:#ffc300
+  color:#ffc300;
+  -webkit-text-stroke: 0.2px black;
 }
 .schedulerPos{
-  color:#10ac84
+  color:#10ac84;
+  -webkit-text-stroke: 0.2px black;
 }
+.wikimapsPos{
+  color:#EF6461;
+  -webkit-text-stroke: 0.2px black;
+}
+
 .navPos1{
   display: flex;
   margin-left: 3.5em;
@@ -75,4 +82,10 @@ a{
   margin-left: 3.5em;
   margin-top: 0.7em;
   border: 1px #10ac84 solid
+}
+.navPos3{
+  display: flex;
+  margin-left: 3.5em;
+  margin-top: 0.7em;
+  border: 1px #EF6461 solid
 }
