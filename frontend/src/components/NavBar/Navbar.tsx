@@ -18,6 +18,9 @@ export default function Navbar () {
     if (window.scrollY > 1800) {
       setLogo("Logo3.png")
     }
+    if (window.scrollY > 2700) {
+      setLogo("Logo4.png")
+    }
   }
   const changeNav = () => {
     if (window.scrollY > 900 ) {
