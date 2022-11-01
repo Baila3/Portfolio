@@ -8,7 +8,7 @@ interface Props {
 export default function Navbar () {
   const [logo, setLogo] = useState("Logo.png")
   const [nav, setNav] = useState("NavMage")
-  const [links, setLinks] = useState("EAC")
+  const [links, setLinks] = useState("star")
   const changeLogo = () => {
     if (window.scrollY > 900) {
       setLogo("Logo2.png")
@@ -60,9 +60,9 @@ export default function Navbar () {
       <div className="nav-div">
         <img className={nav} src={require(`../../docs/${logo}`)} alt="" width = "85" height = "auto"/>
         <div className="options">
-          <h2><a className={links} href="/EAC">EAC</a></h2>
-          <h2><a className={links} href="/Wikimaps">Wikimaps</a></h2>
-          <h2><a className={links} href="/Scheduler">Scheduler</a></h2>
+          <h2><a className={links}  target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/final-project">EAC</a></h2>
+          <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/Wiki-Map">Wikimaps</a></h2>
+          <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/scheduler">Scheduler</a></h2>
           <h2><a className={links} href="/Abouts">About</a></h2>
         </div>
       </div>

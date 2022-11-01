@@ -61,7 +61,7 @@ export default function Home () {
           <button type="button"
            onClick={(e) => {
               e.preventDefault();
-              window.open('https://github.com/Baila3/scheduler');
+              window.open('https://github.com/Baila3/Wiki-Map');
             }} 
            className="draw3">
            <FontAwesomeIcon icon={faGithub}  />

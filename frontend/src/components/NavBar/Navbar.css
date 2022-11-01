@@ -14,24 +14,14 @@ a{
   font-family: 'Arial';
   font-size: small;
 }
-.EAC {
+.star {
   color:#cbc7b7;
 }
-.WikiMaps {
-  color:#cbc7b7;
-}
-.Scheduler{
-  color: #cbc7b7;
-}
-.About{
-  color:#cbc7b7;
-}
-.EAC:hover {
-  color: #ffc300;
-}
-.About:hover {
+
+.star:hover {
   color: white;
 }
+
  
 .options {
   display: flex;
