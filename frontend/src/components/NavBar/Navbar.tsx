@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./Navbar.css";
 
 
-interface Props {
-  Text: string
-}
+// interface Props {
+//   Text: string
+// }
 export default function Navbar () {
   const [logo, setLogo] = useState("Logo.png")
   const [nav, setNav] = useState("NavMage")
