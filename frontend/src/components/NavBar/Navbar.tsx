@@ -60,7 +60,7 @@ export default function Navbar () {
       <div className="nav-div">
         <img className={nav} src={require(`../../docs/${logo}`)} alt="" width = "85" height = "auto"/>
         <div className="options">
-          <h2><a className={links}  target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/final-project">EAC</a></h2>
+          <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/final-project">EAC</a></h2>
           <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/Wiki-Map">Wikimaps</a></h2>
           <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/scheduler">Scheduler</a></h2>
           <h2><a className={links} href="/Abouts">About</a></h2>
