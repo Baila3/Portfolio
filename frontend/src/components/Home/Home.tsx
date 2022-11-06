@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FC} from "react";
 import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 interface Props {
   Text: string
 }
-export default function Home () {
+const Home: FC = () => {
 
   return (
     <main>
@@ -78,3 +78,5 @@ export default function Home () {
     </main>
   )
 }
+
+export default Home

@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, FC } from "react";
 import "./Navbar.css";
 
 
-// interface Props {
-//   Text: string
+// interface NavItems {
+//   logo: string
+//   nav: string
+//   links: string
 // }
-export default function Navbar () {
-  const [logo, setLogo] = useState("Logo.png")
-  const [nav, setNav] = useState("NavMage")
-  const [links, setLinks] = useState("star")
+ const Navbar: FC = () => {
+  const [logo, setLogo] = useState<string>("Logo.png")
+  const [nav, setNav] = useState<string>("NavMage")
+  const [links, setLinks] = useState<string>("star")
+
   const changeLogo = () => {
     if (window.scrollY > 900) {
       setLogo("Logo2.png")
@@ -22,6 +25,7 @@ export default function Navbar () {
       setLogo("Logo4.png")
     }
   }
+
   const changeNav = () => {
     if (window.scrollY > 900 ) {
        setNav("navPos1")
@@ -36,6 +40,7 @@ export default function Navbar () {
    } 
      
   }
+
   const changeLinks = () => {
     if (window.scrollY > 900 ) {
        setLinks("eacPos")
@@ -69,3 +74,4 @@ export default function Navbar () {
     </main>
   )
 }
+export default Navbar;
