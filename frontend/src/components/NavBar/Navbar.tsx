@@ -2,11 +2,6 @@ import React, { useState, FC } from "react";
 import "./Navbar.css";
 
 
-// interface NavItems {
-//   logo: string
-//   nav: string
-//   links: string
-// }
  const Navbar: FC = () => {
   const [logo, setLogo] = useState<string>("Logo.png")
   const [nav, setNav] = useState<string>("NavMage")

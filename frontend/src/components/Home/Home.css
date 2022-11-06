@@ -2,23 +2,14 @@
 ::-webkit-scrollbar {
   display: none;
 }
+/* Initial Homw section*/
+
 .blackSand{
   border-bottom: #ffc300;
 }
-.draw {
-  position: absolute;
-  top: 59em;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  color: #cbc7b7;
-  font-family: 'Georgia';
-  font-size: 1.5em;
-  -webkit-text-stroke: 0.2px black;
-
-}
 .space1{
   margin-top: -0.4em;
-
+  
 }
 .Porto {
   position: absolute;
@@ -30,11 +21,21 @@
   font-family: 'Arial';
   font-size: 1.5em;
   z-index: 3;
-
-  /* background-color: gray; */
 }
 
-.drew {
+/* Everyone's a Critic Home section*/
+
+.EACButton {
+  position: absolute;
+  top: 59em;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: #cbc7b7;
+  font-family: 'Georgia';
+  font-size: 1.5em;
+  -webkit-text-stroke: 0.2px black;
+}
+.EACDescription {
   position: absolute;
   top: 52em;
   left: 50%;
@@ -46,21 +47,190 @@
   border: solid 3px #ffc300;
   padding: 2em;
 }
-#blur1 {
+#blurEAC {
   margin-top: -0.4em;
   filter: blur(4px);
   border: #ffc300 7px solid;
-  /* background-color: black; */
 }
-#blur2 {
+
+.EACButton {
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.EACButton::before, .EACButton::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.EACButton::before {
+  top: 0;
+  left: 0;
+}
+.EACButton::after {
+  bottom: 0;
+  right: 0;
+}
+.EACButton:hover {
+  color: #ffc300;
+}
+.EACButton:hover::before, .EACButton:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.EACButton:hover::before {
+  border-top-color: #ffc300;
+  border-right-color: #ffc300;
+  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.EACButton:hover::after {
+  border-bottom-color: #ffc300;
+  border-left-color: #ffc300;
+  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+/* Scheduler Home section*/
+
+.SchedulerDescription {
+  position: absolute;
+  top: 90em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #10ac84 ;
+  font-family: 'Arial';
+  font-size: 1.5em;
+  z-index: 3;
+  border: solid 3px #10ac84 ;
+  padding: 2em;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.SchedulerButton {
+  position: absolute;
+  top: 97em;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: #cbc7b7;
+  font-family: 'Georgia';
+  font-size: 1.5em;
+  -webkit-text-stroke: 0.2px black;
+  
+  
+}
+.SchedulerButton {
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.SchedulerButton::before, .SchedulerButton::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.SchedulerButton::before {
+  top: 0;
+  left: 0;
+}
+.SchedulerButton::after {
+  bottom: 0;
+  right: 0;
+}
+.SchedulerButton:hover {
+  color: #10ac84;
+}
+.SchedulerButton:hover::before, .SchedulerButton:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.SchedulerButton:hover::before {
+  border-top-color: #10ac84;
+  border-right-color: #10ac84;
+  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.SchedulerButton:hover::after {
+  border-bottom-color: #10ac84;
+  border-left-color: #10ac84;
+  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+#blurScheduler {
   filter: blur(4px);
   border: #10ac84 7px solid
-}#blur3 {
+}
+
+/* WikiMaps Home section*/
+
+.WikiMapsDescription {
+  position: absolute;
+  top: 129em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EF6461 ;
+  font-family: 'Arial';
+  font-size: 1.5em;
+  z-index: 3;
+  border: solid 3px #EF6461;
+  padding: 2em;
+}
+.WikimapsButton {
+  position: absolute;
+  top: 136em;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: #cbc7b7;
+  font-family: 'Georgia';
+  font-size: 1.5em;
+  -webkit-text-stroke: 0.2px black;
+  
+}
+.WikimapsButton {
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.WikimapsButton::before, .WikimapsButton::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.WikimapsButton::before {
+  top: 0;
+  left: 0;
+}
+.WikimapsButton::after {
+  bottom: 0;
+  right: 0;
+}
+.WikimapsButton:hover {
+  color: #EF6461;
+}
+.WikimapsButton:hover::before, .WikimapsButton:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.WikimapsButton:hover::before {
+  border-top-color: #EF6461;
+  border-right-color: #EF6461;
+  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.WikimapsButton:hover::after {
+  border-bottom-color: #EF6461;
+  border-left-color: #EF6461;
+  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+#blurWikimaps {
   filter: blur(4px);
   border: #EF6461 7px solid
   
 }
+
+/* Button CSS*/
+
 button {
+  cursor: pointer;
   z-index: 3;
   background: none;
   border: 0;
@@ -80,162 +250,4 @@ button::before, button::after {
   position: absolute;
   width: 100%;
   height: 100%;
-}
-
-.draw {
-  -webkit-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.draw::before, .draw::after {
-  border: 2px solid transparent;
-  width: 0;
-  height: 0;
-}
-.draw::before {
-  top: 0;
-  left: 0;
-}
-.draw::after {
-  bottom: 0;
-  right: 0;
-}
-.draw:hover {
-  color: #ffc300;
-}
-.draw:hover::before, .draw:hover::after {
-  width: 100%;
-  height: 100%;
-}
-.draw:hover::before {
-  border-top-color: #ffc300;
-  border-right-color: #ffc300;
-  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-}
-.draw:hover::after {
-  border-bottom-color: #ffc300;
-  border-left-color: #ffc300;
-  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-}
-.drew2 {
-  position: absolute;
-  top: 90em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #10ac84 ;
-  font-family: 'Arial';
-  font-size: 1.5em;
-  z-index: 3;
-  border: solid 3px #10ac84 ;
-  padding: 2em;
-  -webkit-text-stroke: 0.2px black;
-}
-
-.draw2 {
-  position: absolute;
-  top: 97em;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  color: #cbc7b7;
-  font-family: 'Georgia';
-  font-size: 1.5em;
-  -webkit-text-stroke: 0.2px black;
-
-  
-}
-.draw2 {
-  -webkit-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.draw2::before, .draw2::after {
-  border: 2px solid transparent;
-  width: 0;
-  height: 0;
-}
-.draw2::before {
-  top: 0;
-  left: 0;
-}
-.draw2::after {
-  bottom: 0;
-  right: 0;
-}
-.draw2:hover {
-  color: #10ac84;
-}
-.draw2:hover::before, .draw2:hover::after {
-  width: 100%;
-  height: 100%;
-}
-.draw2:hover::before {
-  border-top-color: #10ac84;
-  border-right-color: #10ac84;
-  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-}
-.draw2:hover::after {
-  border-bottom-color: #10ac84;
-  border-left-color: #10ac84;
-  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-}
-.drew3 {
-  position: absolute;
-  top: 129em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #EF6461 ;
-  font-family: 'Arial';
-  font-size: 1.5em;
-  z-index: 3;
-  border: solid 3px #EF6461;
-  padding: 2em;
-}
-.draw3 {
-  position: absolute;
-  top: 136em;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  color: #cbc7b7;
-  font-family: 'Georgia';
-  font-size: 1.5em;
-  -webkit-text-stroke: 0.2px black;
-
-}
-.draw3 {
-  -webkit-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.draw3::before, .draw3::after {
-  border: 2px solid transparent;
-  width: 0;
-  height: 0;
-}
-.draw3::before {
-  top: 0;
-  left: 0;
-}
-.draw3::after {
-  bottom: 0;
-  right: 0;
-}
-.draw3:hover {
-  color: #EF6461;
-}
-.draw3:hover::before, .draw3:hover::after {
-  width: 100%;
-  height: 100%;
-}
-.draw3:hover::before {
-  border-top-color: #EF6461;
-  border-right-color: #EF6461;
-  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-}
-.draw3:hover::after {
-  border-bottom-color: #EF6461;
-  border-left-color: #EF6461;
-  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
 }
