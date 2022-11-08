@@ -15,12 +15,19 @@
   position: absolute;
   top: 15em;
   height: auto;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Arial';
   font-size: 1.5em;
   z-index: 3;
+}
+.Baila{
+  position: absolute;
+  left: 55%;
+  top: 25%;
+  filter: grayscale(100%);
+  border-radius: 5em;
 }
 
 /* Everyone's a Critic Home section*/
