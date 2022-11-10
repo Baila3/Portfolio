@@ -11,8 +11,8 @@ const Home: FC = () => {
     <main>
        <div>
         <section>
-          <h1 className="Porto">Hi My name Is Baila</h1>
-          <img className="Baila" src={require("../../docs/BailaPic.png")} alt="" width="20%" height="auto"/>
+          <h1 className="Porto">Hi My name is Baila, and this is my portfolio! </h1>
+          <img className="Baila" src={require("../../docs/BailaPic.png")} alt="" width="19%" height="auto"/>
           <img className="blackSand" src={require("../../docs/flip.png")} alt="" width="100%" height="auto" />
         </section> 
        </div>

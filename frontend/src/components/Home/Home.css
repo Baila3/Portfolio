@@ -13,9 +13,9 @@
 }
 .Porto {
   position: absolute;
-  top: 15em;
+  top: 30%;
   height: auto;
-  left: 20%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #cbc7b7;
   font-family: 'Arial';
@@ -24,8 +24,8 @@
 }
 .Baila{
   position: absolute;
-  left: 55%;
-  top: 25%;
+  left: 40%;
+  top: 40%;
   filter: grayscale(100%);
   border-radius: 5em;
 }
