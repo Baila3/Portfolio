@@ -24,10 +24,10 @@
 }
 .Baila{
   position: absolute;
-  left: 40%;
+  left: 32%;
   top: 40%;
   filter: grayscale(100%);
-  border-radius: 5em;
+  border-bottom: #cbc7b7 2px solid;
 }
 
 /* Everyone's a Critic Home section*/
