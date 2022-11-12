@@ -34,8 +34,6 @@
 
 .EACButton {
   position: absolute;
-  /* top: 59em;
-  left: 48%; */
   width: 20%;
   transform: translate(190%, 500%);
   color: #cbc7b7;
@@ -45,10 +43,6 @@
 }
 .EACDescription {
   position: absolute;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* text-align: center; */
-  /* margin: auto; */
   width: 50%;
   transform: translate(39%, 90%);
   color: #ffc300;
@@ -118,11 +112,8 @@
 
 .SchedulerButton {
   position: absolute;
-  /* top: 97em;
-  left: 48%; */
   width: 20%;
   transform: translate(190%, 500%);
-  /* transform: translate(-50%, -50%); */
   color: #cbc7b7;
   font-family: 'Georgia';
   font-size: 1.5em;

@@ -7,6 +7,7 @@ import "./Navbar.css";
   const [nav, setNav] = useState<string>("NavMage")
   const [links, setLinks] = useState<string>("star")
 
+
   const changeLogo = () => {
     if (window.scrollY > 900) {
       setLogo("Logo2.png")
