@@ -64,7 +64,7 @@ import "./Navbar.css";
           <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/final-project">EAC</a></h2>
           <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/Wiki-Map">Wikimaps</a></h2>
           <h2><a className={links} target="_blank" rel="noopener noreferrer" href="https://github.com/Baila3/scheduler">Scheduler</a></h2>
-          <h2><a className={links} href="/Abouts">About</a></h2>
+          <h2><a className={links} href="/Abouts">Contact</a></h2>
         </div>
       </div>
     </main>

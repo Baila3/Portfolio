@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+Welcome to Baila's Portfolio!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+Baila's Portfolio is a personalized app that displays all of my biggest project! 
 
-In the project directory, you can run:
+### Screenshots
 
-### `npm start`
+!["Screenshot of the main page"](https://github.com/bulabd/final-project/blob/master/docs/main-page.png?raw=true);
+!["Screenshot of the movie details"](https://github.com/bulabd/final-project/blob/master/docs/movie-details.png?raw=true);
+!["Screenshot of the playlists"](https://github.com/bulabd/final-project/blob/master/docs/playlists.png?raw=true);
+!["Screenshot of the user dashboard"](https://github.com/bulabd/final-project/blob/master/docs/user-dashboard.png?raw=true);
+!["Screenshot of the register page"](https://github.com/bulabd/final-project/blob/master/docs/register-page.png?raw=true);
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Frontend: React, Material-UI, NodeJS, SCSS, JSX
 
-### `npm test`
+Backend: Postgres, Express, NodeJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
 
-### `npm run build`
+Frontend: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - Fontsawesome
+  - Material-UI
+  - Axios
+  - Dom-Helpers
+  - React
+  - React cookie
+  - React DOM
+  - React Lottie
+  - React Router DOM
+  - React Scripts
+  - React Stars
+  - SASS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - Axios
+  - Dotenv
+  - EsLint
+  - Express
+  - Morgan
+  - Postegres
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone the repo into a repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Use .env.example to create your own .env files in backend and frontend folders.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Run **psql** and **CREATE DATABASE your_db_name** in psql
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. In another terminal, go to backend folder and run **npm install**
 
-## Learn More
+5. Run **npm run db:reset** to seed the database and then **npm start** to start the server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. In another terminal, go to frontend folder and run **npm install --force**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Run **npm start** to load the app

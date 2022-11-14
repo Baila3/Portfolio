@@ -46,22 +46,22 @@ a:hover {
 }
 
 .Scheduler:hover {
-  color: #10ac84;
+  color: #cbc7b7;
 }
 .WikiMaps:hover {
-  color: #EF6461;
+  color: #cbc7b7;
 }
 
 .eacPos{
-  color:#ffc300;
+  color:#cbc7b7;
   -webkit-text-stroke: 0.2px black;
 }
 .schedulerPos{
-  color:#10ac84;
+  color:#cbc7b7;
   -webkit-text-stroke: 0.2px black;
 }
 .wikimapsPos{
-  color: #EF6461;
+  color: #cbc7b7;
   -webkit-text-stroke: 0.4px black;
 }
 
@@ -69,17 +69,17 @@ a:hover {
   display: flex;
   margin-left: 3.5em;
   margin-top: 0.7em;
-  border: 1px #ffc300 solid
+  border: 1px #cbc7b7 solid
 }
 .navPos2{
   display: flex;
   margin-left: 3.5em;
   margin-top: 0.7em;
-  border: 1px #10ac84 solid
+  border: 1px #cbc7b7 solid
 }
 .navPos3{
   display: flex;
   margin-left: 3.5em;
   margin-top: 0.7em;
-  border: 1px #EF6461 solid
+  border: 1px #cbc7b7 solid
 }

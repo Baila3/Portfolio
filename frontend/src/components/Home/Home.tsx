@@ -5,18 +5,24 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 
+
 const Home: FC = () => {
 
   return (
     <main>
-       <div>
-        <section>
+       <div className="container">
+        <section className="blackSand">
           <h1 className="Porto">Hi My name is Baila, and this is my portfolio! </h1>
-          <img className="Baila" src={require("../../docs/crown.png")} alt="" width="35%" height="auto"/>
-          <img className="Baila" src={require("../../docs/Baila.png")} alt="" width="35%" height="auto"/>
+          {/* <img className="Baila" src={require("../../docs/crown.png")} alt="" width="35%" height="auto"/> */}
+          {/* <img className="Baila" src={require("../../docs/Baila.png")} alt="" width="35%" height="auto"/> */}
           <img className="blackSand" src={require("../../docs/flip.png")} alt="" width="100%" height="auto" />
         </section> 
        </div>
+       {/* <div>
+        <section>
+          <img className="blackSand" src={require("../../docs/flip.png")} alt="" width="100%" height="auto" />
+        </section> 
+       </div> */}
         <section>
           <p className="EACDescription">Everyone's a Critic (EAC) is a movie library that enables users to discover, rate, review and add to movies to personalized movie playlists. </p>
           <button type="button"    
